@@ -27,8 +27,8 @@ export default {
       this.$nextTick(() => {
         // eslint-disable-next-line no-undef
         var gitalk = new Gitalk({
-          clientID: 'a5aecdc7af0ca2026aff',
-          clientSecret: '244a3e4f43fb5df207f5ce3506233ac64fab4786',
+          clientID: '68981c5815d2ea0cc616',
+          clientSecret: 'ddda583cf033ff1297e5a2a2186c2e4c5a084c72',
           repo: 'BluecollarHub-web',
           owner: 'rickdynasty',
           labels: [this.type],
