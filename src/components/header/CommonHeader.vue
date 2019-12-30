@@ -17,7 +17,7 @@
         <form id="search-form" action="/articles/search">
       <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;">
         <input
-        type="text" id="search-query-nav" class="search-query st-default-search-input aa-input" name="keywords" v-model="keywords" @keyup.enter="submit"
+        type="text" placeholder="搜索蓝领" id="search-query-nav" class="search-query st-default-search-input aa-input" name="keywords" v-model="keywords" @keyup.enter="submit"
         autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
         aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
         <pre

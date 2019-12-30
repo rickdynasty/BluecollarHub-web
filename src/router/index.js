@@ -41,7 +41,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '蓝领'
+            title: '蓝领 - IT心路历程，放飞梦想'
           }
         },
         {
