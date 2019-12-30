@@ -1,5 +1,5 @@
 <template>
-  <div class="recommend" v-if="0<recommendList.length">
+  <div class="recommend" v-if="this.topRecommend!=undefined">
     <panel :title="'推荐阅读'">
       <div slot="content" class="content">
         <div class="top" v-if="topRecommend">
