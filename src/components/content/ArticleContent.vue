@@ -75,7 +75,7 @@ export default {
             this.addCodeLineNumber()
             this.refreshDiectory()
             // this.refreshMobileDirectory()
-            document.title = this.article.title + ' | Bluecollar Hub'
+            document.title = this.article.title + ' - 蓝领'
           })
         }
       })

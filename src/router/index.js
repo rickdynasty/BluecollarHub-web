@@ -41,7 +41,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: 'Bluecollar Hub'
+            title: '蓝领'
           }
         },
         {
@@ -63,7 +63,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文列表 | Bluecollar Hub'
+            title: '作品列表 - 蓝领'
           }
         },
         {
@@ -75,7 +75,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文列表 | Bluecollar Hub'
+            title: '文章列表 - 蓝领'
           }
         },
         {
@@ -87,7 +87,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文列表 | Bluecollar Hub'
+            title: '分类内容列表 - 蓝领'
           }
         },
         {
@@ -99,7 +99,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文搜索 | Bluecollar Hub'
+            title: '搜索内容 - 蓝领'
           }
         },
         {
@@ -111,7 +111,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '时间轴 | Bluecollar Hub'
+            title: '时间轴 - 蓝领'
           }
         }
       ]
