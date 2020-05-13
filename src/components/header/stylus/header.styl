@@ -247,8 +247,7 @@ body.docs
 /* page */
 
 #header
-  box-shadow: 0 0 1px rgba(0,0,0,.25)
-
+  /*box-shadow: 0 0 1px rgba(0,0,0,.25)*/
 
 #main.fix-sidebar
   .sidebar
@@ -281,3 +280,29 @@ body.docs
     display: block
   #main
     padding: 2em 1.4em 0
+
+/* reset header */
+body.docs
+  .common-header
+    @media screen and (min-width: 1200px)
+      width: 1200px;
+      margin: 0 auto 0;
+  #header
+    &::after
+      content: ' '
+      position: fixed
+      top 63px
+      left -50vw
+      right 0
+      display: block
+      width 200vw
+      height 0
+      border-bottom 0.5px solid #eee
+    @media screen and (min-width: 1200px)
+      width: 1200px;
+      margin: 0 auto;
+      padding: 10px;
+  #nav
+    @media screen and (min-width: 1200px)
+      position: absolute
+      right 10px
